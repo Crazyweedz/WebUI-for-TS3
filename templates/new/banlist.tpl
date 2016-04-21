@@ -21,10 +21,6 @@
                         </div>
                     {/if}
                 {/if}
-                <div class="alert alert-warning alert-dismissible" role="alert">
-                    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                    <p>Vous n'êtes pas obligé de remplir les 3 premiers champs. Seulement 1 des 3 suffit !</p>
-                </div>
                 <div class="box">
                     <div class="box-header text-center">
                         <h3 class="box-title">{$lang['banlist']}</h3>
