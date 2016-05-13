@@ -151,20 +151,20 @@
 
         function confirmAction()
         	{
-        	var text="Möchtest du folgende Aktion wirklich ausführen?\n\n";
+        	var text="{$lang['confirmAction']}\n\n";
         	for(var i in conf_arr)
         		{
         		if(conf_arr[i]['action'] == 'start')
         			{
-        			text = text+"***Starten*** "+conf_arr[i]['name']+" "+conf_arr[i]['port']+"\n";
+        			text = text+"***{$lang['start']}*** "+conf_arr[i]['name']+" "+conf_arr[i]['port']+"\n";
         			}
         			else if(conf_arr[i]['action'] == 'stop')
         			{
-        			text = text+"***Stoppen*** "+conf_arr[i]['name']+" "+conf_arr[i]['port']+"\n";
+        			text = text+"***{$lang['stop']}*** "+conf_arr[i]['name']+" "+conf_arr[i]['port']+"\n";
         			}
         			else if(conf_arr[i]['action'] == 'del')
         			{
-        			text = text+"***Löschen*** "+conf_arr[i]['name']+" "+conf_arr[i]['port']+"\n";
+        			text = text+"***{$lang['delete']}*** "+conf_arr[i]['name']+" "+conf_arr[i]['port']+"\n";
         			}
         		}
         	return text;

@@ -118,6 +118,7 @@ $lang['comparator']="Comparator";
 $lang['complaindel']="Complain successfully deleted";
 $lang['complainlist']="Complain List";
 $lang['complainsdel']="Complains successfully deleted";
+$lang['confirmAction']="Confirm this action ?";
 $lang['copypermsfrom']="Copy perms from";
 $lang['countcomplain']="have %d complains";
 $lang['countdelclients']="There have been deleted %d clients";
@@ -549,6 +550,7 @@ if($cfglang=='de')
 	$lang['complaindel']="Beschwerde erfolgreich gel&ouml;scht";
 	$lang['complainlist']="Beschwerdeliste";
 	$lang['complainsdel']="Beschwerden erfolgreich gel&ouml;scht";
+	$lang['confirmAction']="Möchtest du folgende aktion wirklich ausführen ?";
 	$lang['copypermsfrom']="Kopiere Rechte von";
 	$lang['countcomplain']="hat %d beschwerden";
 	$lang['countdelclients']="Es wurden %d Clients gel&ouml;scht!";
@@ -889,6 +891,7 @@ if($cfglang=='nl')
 	$lang['channeledit']="Kanaal bewerken";
 	$lang['channelperm']="Kanaal Rechten";
 	$lang['createchannel']="Maak kanaal";
+	$lang['confirmAction']="Wil je echt wilt de volgende actie uit te voeren?";
 	$lang['clientlist']="Gebruikers lijst";
 	$lang['servergroups']="Servergroepen";
 	$lang['channelgroups']="Kanaalgroepen";
@@ -1343,6 +1346,7 @@ if($cfglang=='fr')
 	$lang['complaindel']="Plainte supprim&eacute;e";
 	$lang['complainlist']="Liste des plaintes";
 	$lang['complainsdel']="Plaintes supprim&eacute;es";
+	$lang['confirmAction']="Confirmer cette action ?";
 	$lang['console']="Console";
 	$lang['copypermsfrom']="Copie permanente depuis";
 	$lang['countcomplain']="a %d plaintes";
@@ -1610,9 +1614,9 @@ if($cfglang=='fr')
 	$lang['squeryfloodcmd']="Commande de flood des Server Query";
 	$lang['squeryfloodtime']="Dur&eacute;e de flood des Server Query";
 	$lang['standardgroups']="Groupes standards";
-	$lang['start']="D&eacute;marrer";
+	$lang['start']="Demarrer";
 	$lang['status']="Statut";
-	$lang['stop']="Arr&ecirc;ter";
+	$lang['stop']="Arreter";
 	$lang['stoprefresh']="Arr&ecirc;ter de rafra&icirc;chir";
 	$lang['stopservermsg']="Voulez-vous vraiment arr&ecirc;ter ce serveur ?";
 	$lang['switch']="Changer";
